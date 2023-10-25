@@ -42,6 +42,16 @@ The env will be determined by changing variables 'day_night' and 'rain'
 
 day when day_night==1,night when day_night==0
 Rain intensity values range from 0 to 100, being 0 none at all and 100 a heavy rain.
-
+```
+# the default is day and rainy
+python3 carla_env.py
+```
 
 ## Possible outcomes of the project
+
+I will set 'rain' variable which metioned before, as 0 or 80. 
+So, there could be four environments : rainy day, sunny day, rainy night and sunny night. 
+
+Then, I'm going to use the SAC algorithm and PID controller as the agent. 
+Altough the agents are not provided due to the lack of the time. It will be provided next. 
+
