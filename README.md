@@ -38,6 +38,10 @@ cd ADVN_RoboticAI/carla
 ./CarlaUE4.sh
 ```
 And you can run carla_env.py
+The env will be determined by changing variables 'day_night' and 'rain'
+
+day when day_night==1,night when day_night==0
+Rain intensity values range from 0 to 100, being 0 none at all and 100 a heavy rain.
 
 
 ## Possible outcomes of the project
