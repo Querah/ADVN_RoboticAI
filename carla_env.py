@@ -231,7 +231,7 @@ class CarlaEnv(object):
                  num_cameras=5,
                  port=20,
                  day_night=0, # 1 is day others are night
-                 rain=60.0
+                 rain=80.0
                  ):
         if record_display_images:
             assert render_display
