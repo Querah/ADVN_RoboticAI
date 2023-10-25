@@ -6,7 +6,7 @@
 # This work is licensed under the terms of the MIT license.
 # For a copy, see <https://opensource.org/licenses/MIT>.
 #
-# Modified for ARAI_PJ paper.
+# Modified for ARAI Project.
 
 import random
 import glob
@@ -247,8 +247,8 @@ class CarlaEnv(object):
         self.start_lane = start_lane
         self.num_cameras = num_cameras
         self.precipitation = rain
-        #   self.sun_altitude = 90.0 if day_night == 1 else -90.0
-        self.sun_altitude = 90.0
+        self.sun_altitude = 90.0 if day_night == 1 else -90.0
+        # self.sun_altitude = 90.0
 
         self.actor_list = []
 
